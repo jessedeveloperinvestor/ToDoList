@@ -1,32 +1,20 @@
 {
-  "name": "nodejs-crud-json-app",
+  "name": "simple-restful-api",
   "version": "1.0.0",
-  "description": "Simply app which helps me learn NodeJS",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "This is command test",
-    "start": "node server.js"
+    "dev": "nodemon ./src/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nyweron/NodeJS-CRUD-JSON-app.git"
-  },
-  "dependencies": {
-    "body-parser": "^1.17.1",
-    "express": "^4.15.2",
-    "node-json-db": "^0.7.3"
-  },
-  "keywords": [
-    "javascript",
-    "nodejs",
-    "json"
-  ],
-  "author": "Przemysław Juśkiewicz",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nyweron/NodeJS-CRUD-JSON-app/issues"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1",
+    "pg": "^8.7.3"
   },
-  "homepage": "https://github.com/Nyweron/NodeJS-CRUD-JSON-app#readme",
   "devDependencies": {
     "nodemon": "^2.0.16"
   }
