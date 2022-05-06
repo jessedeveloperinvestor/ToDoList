@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-crud-json-app",
+  "version": "1.0.0",
+  "description": "Simply app which helps me learn NodeJS",
+  "main": "server.js",
+  "scripts": {
+    "test": "This is command test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyweron/NodeJS-CRUD-JSON-app.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "node-json-db": "^0.7.3"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "json"
+  ],
+  "author": "Przemysław Juśkiewicz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nyweron/NodeJS-CRUD-JSON-app/issues"
+  },
+  "homepage": "https://github.com/Nyweron/NodeJS-CRUD-JSON-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
